@@ -1,7 +1,9 @@
 body {
-    background-color: #370617;
     padding: 20px;
     
+}
+.one {
+    background-color: #370617;
 }
 
 .card__first {
@@ -278,5 +280,39 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);   
 }
 
+.two {
+    background-color: #FAA307;
+    
+}
+
+.circle__first {
+    padding: 20px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle__1{
+    background-color: #03071E;
+    display: flex;
+    width: 40vh;
+    height: 25vh; 
+    
+}
+.circle__2{
+    background-color: #6A040F;
+    display: flex;
+    width: 40vh;
+    height: 25vh; 
+    
+}
+
+.circle__3{
+    background-color: #03071E;
+    display: flex;
+    width: 40vh;
+    height: 25vh; 
+    
+}
 
 
