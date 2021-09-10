@@ -4,6 +4,8 @@ body {
 }
 .one {
     background-color: #370617;
+    
+    
 }
 
 .card__first {
@@ -282,14 +284,21 @@ body {
 
 .two {
     background-color: #FAA307;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 20px;
+    
+    
     
 }
 
 .circle__first {
-    padding: 20px; 
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    
+    
 }
 
 .circle__1{
@@ -297,11 +306,63 @@ body {
     display: flex;
     width: 40vh;
     height: 25vh; 
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 20px;
     
 }
+.circle__1__1 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  
+}
+.circle__1__2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  
+}
+.circle__1__3 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);  
+}
+.circle__1__4 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    
+ 
+}
+.circle__1__5 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #748CAB;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    
+ 
+}
+
+
+
+
+
 .circle__2{
     background-color: #6A040F;
-    display: flex;
+    margin: 20px;
     width: 40vh;
     height: 25vh; 
     
@@ -309,10 +370,34 @@ body {
 
 .circle__3{
     background-color: #03071E;
-    display: flex;
+    margin: 20px;
     width: 40vh;
     height: 25vh; 
     
+}
+
+
+.circle__second {  
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-end;
+
+}
+.circle__4{
+    background-color: #03071E;
+    margin: 20px;
+    width: 25vh;
+    height: 25vh; 
+    
+    
+    
+}
+.circle__5{
+    background-color: #6A040F; 
+    margin: 20px; 
+    width: 25vh;
+    height: 25vh; 
+      
 }
 
 
